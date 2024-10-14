@@ -26,6 +26,8 @@ string ConvertFromBase10(int n, int b)
     }
 
     StringBuilder sb = new StringBuilder();
+    
+
     while(stack.Count > 0)
     {
         sb.Append(stack.Pop());
